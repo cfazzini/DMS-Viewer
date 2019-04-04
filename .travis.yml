@@ -4,7 +4,7 @@ mono:
   - latest
 deploy:
   provider: releases
-  api_key: "1ccbf06a817dbc1f28bcdbcb07c30720979f733a"
+  api_key: "$GITHUB_KEY"
   file: "$TRAVIS_BUILD_DIR/DMS Viewer/bin/Release/DMS Viewer.exe
   skip_cleanup: true
   on:
