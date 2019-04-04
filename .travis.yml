@@ -7,5 +7,4 @@ deploy:
   api_key: "$GITHUB_KEY"
   file: "$TRAVIS_BUILD_DIR/DMS Viewer/bin/Release/DMS Viewer.exe"
   skip_cleanup: true
-  on:
-    tags: true
+
