@@ -1,7 +1,7 @@
 language: csharp
 solution: "DMS Viewer.sln"
 mono:
-  - none
+  - latest
 deploy:
   provider: releases
   api_key: "$GITHUB_KEY"
